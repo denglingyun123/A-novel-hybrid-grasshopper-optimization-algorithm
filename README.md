@@ -1,1 +1,1 @@
-# A-novel-hybrid-grasshopper-optimization-algorithm
+# A-novel-hybrid-grasshopper-optimization-algorithm (HGOA)
