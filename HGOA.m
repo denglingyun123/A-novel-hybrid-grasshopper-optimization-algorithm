@@ -1,23 +1,4 @@
-%_________________________________________________________________________%
-%  Grasshopper Optimization Algorithm (GOA) source codes demo V1.0        %
-%                                                                         %
-%  Developed in MATLAB R2016a                                             %
-%                                                                         %
-%  Author and programmer: Seyedali Mirjalili                              %
-%                                                                         %
-%         e-Mail: ali.mirjalili@gmail.com                                 %
-%                 seyedali.mirjalili@griffithuni.edu.au                   %
-%                                                                         %
-%       Homepage: http://www.alimirjalili.com                             %
-%                                                                         %
-%  Main paper: S. Saremi, S. Mirjalili, A. Lewis                          %
-%              Grasshopper Optimisation Algorithm: Theory and Application %
-%               Advances in Engineering Software , in press,              %
-%               DOI: http://dx.doi.org/10.1016/j.advengsoft.2017.01.004   %
-%                                                                         %
-%_________________________________________________________________________%
 
-% The Grasshopper Optimization Algorithm
 function [TargetPosition,TargetFitness,Convergence_curve]=HGOA(N, Max_iter, lb,ub, dim, fobj)
 
 disp('HGOA is now estimating the global optimum for your problem....')
