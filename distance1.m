@@ -1,4 +1,4 @@
-function d = distance(a,b)
+function d = distance1(a,b)
 % DISTANCE - computes Euclidean distance matrix
 
 if (nargin ~= 2)
