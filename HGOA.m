@@ -72,7 +72,7 @@ while l<=Max_iter
                     r_ij_vec=(temp(:,j)-temp(:,i))/(Dist+eps); 
                     xj_xi=2+rem(Dist,2); 
                     
-                    s_ij=((ub - lb)*c/2)*S_func(xj_xi).*r_ij_vec; % The first part inside the big bracket in Eq. (2.7)
+                    s_ij=((ub - lb)*c/2)*S_func(xj_xi).*r_ij_vec; % The first part inside the big bracket
                     S_i=S_i+s_ij;
                 end
             end
